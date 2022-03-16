@@ -4,3 +4,9 @@
   box-sizing: border-box;
   font-family: "Montserrat";
 }
+
+
+nav ul li:hover {
+  cursor: pointer;
+  color: #1dcb5b;
+}

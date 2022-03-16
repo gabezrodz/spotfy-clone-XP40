@@ -1,0 +1,31 @@
+footer {
+  background-color: black;
+  color: white;
+  height: 80vh;
+}
+
+footer nav {
+  display: flex;
+  align-items: baseline;
+}
+
+footer nav section {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 80px;
+  padding: 4rem 5rem;
+}
+
+footer nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 0.8rem;
+}
+
+.redes-sociais {
+    margin-left: 50px;
+    flex-direction: row;
+}

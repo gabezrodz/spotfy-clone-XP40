@@ -1,13 +1,15 @@
-import React from 'react'
+import React from "react";
+import "./assets/styles/global.css";
 import Banner from "./components/Banner";
-import Header from './components/Header';
-import './assets/styles/global.css'
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div >
+    <div>
       <Header />
       <Banner />
+      <Footer />
     </div>
   );
 }
