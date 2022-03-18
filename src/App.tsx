@@ -1,16 +1,9 @@
-import React from "react";
 import "./assets/styles/global.css";
-import Banner from "./components/Banner";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Routes from "./components/Routes";
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Banner />
-      <Footer />
-    </div>
+    <Routes />
   );
 }
 

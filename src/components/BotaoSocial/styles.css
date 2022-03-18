@@ -1,0 +1,17 @@
+.botao-social {
+  background: #ffffff;
+  width: 54px;
+  height: 54px;
+  border-radius: 50px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.botao-social:hover{
+  background: #1dcb5b;
+}
+
+.botao-social img {
+  width: 100%;
+  color: white;
+}

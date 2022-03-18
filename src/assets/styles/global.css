@@ -6,7 +6,29 @@
 }
 
 
+nav ul a:hover {
+  cursor: pointer;
+  color: #1dcb5b;
+}
+
 nav ul li:hover {
   cursor: pointer;
   color: #1dcb5b;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.divisor {
+  width: 1px;
+  height: 15px;
+  background-color: #fff;
+  display: inline-block;
 }

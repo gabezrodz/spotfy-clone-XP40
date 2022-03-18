@@ -1,31 +1,24 @@
-footer {
+#footer {
   background-color: black;
-  color: white;
-  height: 80vh;
 }
 
-footer nav {
-  display: flex;
-  align-items: baseline;
-}
-
-footer nav section {
+#footer .wrapper {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
-  gap: 80px;
-  padding: 4rem 5rem;
+  align-items: flex-start;
+  padding: 50px;
 }
-
-footer nav ul {
-  list-style: none;
+#footer .redes {
   display: flex;
-  flex-direction: column;
   gap: 20px;
-  font-size: 0.8rem;
 }
 
-.redes-sociais {
-    margin-left: 50px;
-    flex-direction: row;
+h3 {
+  color: white;
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
